@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		283B7E4B2AC4B33300033AEF /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283B7E4A2AC4B33300033AEF /* Model.swift */; };
+		283E6BA12AC3078D0068AA02 /* Dacha_AdminApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283E6BA02AC3078D0068AA02 /* Dacha_AdminApp.swift */; };
+		283E6BA32AC3078D0068AA02 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283E6BA22AC3078D0068AA02 /* MainView.swift */; };
+		283E6BA52AC307900068AA02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 283E6BA42AC307900068AA02 /* Assets.xcassets */; };
+		283E6BA82AC307900068AA02 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 283E6BA72AC307900068AA02 /* Preview Assets.xcassets */; };
+		283E6BAF2AC308FA0068AA02 /* LockersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283E6BAE2AC308FA0068AA02 /* LockersView.swift */; };
+		283E6BB12AC309780068AA02 /* BraceletsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283E6BB02AC309780068AA02 /* BraceletsView.swift */; };
+		283E6BB32AC30B0D0068AA02 /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283E6BB22AC30B0D0068AA02 /* ScheduleView.swift */; };
+		283E6BB52AC315730068AA02 /* ServicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283E6BB42AC315730068AA02 /* ServicesView.swift */; };
+		28699F672AC7229D0025FA4B /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28699F662AC7229D0025FA4B /* WebView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		283B7E4A2AC4B33300033AEF /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		283E6B9D2AC3078D0068AA02 /* Dacha Admin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dacha Admin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		283E6BA02AC3078D0068AA02 /* Dacha_AdminApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dacha_AdminApp.swift; sourceTree = "<group>"; };
+		283E6BA22AC3078D0068AA02 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		283E6BA42AC307900068AA02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		283E6BA72AC307900068AA02 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		283E6BAE2AC308FA0068AA02 /* LockersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockersView.swift; sourceTree = "<group>"; };
+		283E6BB02AC309780068AA02 /* BraceletsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BraceletsView.swift; sourceTree = "<group>"; };
+		283E6BB22AC30B0D0068AA02 /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
+		283E6BB42AC315730068AA02 /* ServicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesView.swift; sourceTree = "<group>"; };
+		28699F662AC7229D0025FA4B /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		283E6B9A2AC3078D0068AA02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		283E6B942AC3078D0068AA02 = {
+			isa = PBXGroup;
+			children = (
+				283E6B9F2AC3078D0068AA02 /* Dacha Admin */,
+				283E6B9E2AC3078D0068AA02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		283E6B9E2AC3078D0068AA02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				283E6B9D2AC3078D0068AA02 /* Dacha Admin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		283E6B9F2AC3078D0068AA02 /* Dacha Admin */ = {
+			isa = PBXGroup;
+			children = (
+				283E6BA02AC3078D0068AA02 /* Dacha_AdminApp.swift */,
+				28699F642AC6E8C30025FA4B /* Views */,
+				28699F632AC6E8B60025FA4B /* Models */,
+				283E6BA42AC307900068AA02 /* Assets.xcassets */,
+				283E6BA62AC307900068AA02 /* Preview Content */,
+			);
+			path = "Dacha Admin";
+			sourceTree = "<group>";
+		};
+		283E6BA62AC307900068AA02 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				283E6BA72AC307900068AA02 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		28699F632AC6E8B60025FA4B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				283B7E4A2AC4B33300033AEF /* Model.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		28699F642AC6E8C30025FA4B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				283E6BA22AC3078D0068AA02 /* MainView.swift */,
+				283E6BAE2AC308FA0068AA02 /* LockersView.swift */,
+				283E6BB02AC309780068AA02 /* BraceletsView.swift */,
+				283E6BB22AC30B0D0068AA02 /* ScheduleView.swift */,
+				28699F662AC7229D0025FA4B /* WebView.swift */,
+				283E6BB42AC315730068AA02 /* ServicesView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		283E6B9C2AC3078D0068AA02 /* Dacha Admin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 283E6BAB2AC307900068AA02 /* Build configuration list for PBXNativeTarget "Dacha Admin" */;
+			buildPhases = (
+				283E6B992AC3078D0068AA02 /* Sources */,
+				283E6B9A2AC3078D0068AA02 /* Frameworks */,
+				283E6B9B2AC3078D0068AA02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dacha Admin";
+			productName = "Dacha Admin";
+			productReference = 283E6B9D2AC3078D0068AA02 /* Dacha Admin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		283E6B952AC3078D0068AA02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					283E6B9C2AC3078D0068AA02 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 283E6B982AC3078D0068AA02 /* Build configuration list for PBXProject "Dacha Admin" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 283E6B942AC3078D0068AA02;
+			productRefGroup = 283E6B9E2AC3078D0068AA02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				283E6B9C2AC3078D0068AA02 /* Dacha Admin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		283E6B9B2AC3078D0068AA02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				283E6BA82AC307900068AA02 /* Preview Assets.xcassets in Resources */,
+				283E6BA52AC307900068AA02 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		283E6B992AC3078D0068AA02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				283B7E4B2AC4B33300033AEF /* Model.swift in Sources */,
+				28699F672AC7229D0025FA4B /* WebView.swift in Sources */,
+				283E6BB32AC30B0D0068AA02 /* ScheduleView.swift in Sources */,
+				283E6BA32AC3078D0068AA02 /* MainView.swift in Sources */,
+				283E6BB52AC315730068AA02 /* ServicesView.swift in Sources */,
+				283E6BAF2AC308FA0068AA02 /* LockersView.swift in Sources */,
+				283E6BB12AC309780068AA02 /* BraceletsView.swift in Sources */,
+				283E6BA12AC3078D0068AA02 /* Dacha_AdminApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		283E6BA92AC307900068AA02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		283E6BAA2AC307900068AA02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		283E6BAC2AC307900068AA02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dacha Admin/Preview Content\"";
+				DEVELOPMENT_TEAM = K4TX7QV6JP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.syanches.Dacha-Admin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		283E6BAD2AC307900068AA02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dacha Admin/Preview Content\"";
+				DEVELOPMENT_TEAM = K4TX7QV6JP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.syanches.Dacha-Admin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		283E6B982AC3078D0068AA02 /* Build configuration list for PBXProject "Dacha Admin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				283E6BA92AC307900068AA02 /* Debug */,
+				283E6BAA2AC307900068AA02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		283E6BAB2AC307900068AA02 /* Build configuration list for PBXNativeTarget "Dacha Admin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				283E6BAC2AC307900068AA02 /* Debug */,
+				283E6BAD2AC307900068AA02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 283E6B952AC3078D0068AA02 /* Project object */;
+}
